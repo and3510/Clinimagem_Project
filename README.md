@@ -66,6 +66,11 @@ Chatbot para Atendimento de uma clinica,para obter informações de forma rápid
 
 ## Fluxo do Software
 
+<div align="center">
+  
+<img src="./images/fluxo.png" alt="Descrição da Imagem" width="600">
+
+</div>
 
 
 ## Dificuldades
