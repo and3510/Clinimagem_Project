@@ -41,6 +41,16 @@ Chatbot para Atendimento de uma clinica,para obter informações de forma rápid
 
 ## Requisitos
 
+- [ ] Informações sobre Convênios
+- [ ] Informações sobre Exames
+- [ ] Informações sobre Consultas
+- [ ] Exames de Imagem
+- [ ] Exames Laboratoriais
+- [ ] Exames do DETRAN
+- [ ] Exames de Medicina do Trabalho
+- [ ] Retornar ao Menu Principal
+- [ ] Resultados de Exames
+- [ ] Encerrar atendimento
 
 
 ## Tecnologias
