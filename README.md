@@ -49,7 +49,7 @@ Chatbot para Atendimento de uma clinica,para obter informações de forma rápid
 - **NocoDB**: Banco de dados visual que transforma dados em planilhas.
 - **Evolution API**: Automação para envio de mensagens via WhatsApp.
 - **WhatsApp**: Plataforma para troca de mensagens e comunicação instantânea.
-- **ChatGPT**: IA para geração de conversas em linguagem natural.
+- **Gemini**: IA para geração de conversas em linguagem natural da Google.
 - **Docker**: Virtualização de aplicações em contêineres para qualquer ambiente.
 - **Postman**: Ferramenta para testar, monitorar e documentar APIs.
 
