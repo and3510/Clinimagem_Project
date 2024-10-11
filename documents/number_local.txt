@@ -11,6 +11,8 @@ domingo	        Fechado
 
 Em Feriados os horários podem ser diferentes
 
+##############################################################
+
 📍UNIDADE CENTRO
 R. Des. Pires de Castro, 456 - Centro (Sul), Teresina - PI. -- ☏ Tel: 086 3131-6636
 
@@ -21,6 +23,10 @@ quinta-feira	07:00–17:00
 sexta-feira	    07:00–17:00
 sábado          08:00–12:00
 domingo	        Fechado
+
+Em Feriados os horários podem ser diferentes
+
+##############################################################
 
 📍UNIDADE DIRCEU
 Quadra 178, Casa 06, Quadra Dirceu Arcoverde-II - Itararé, Teresina - PI. -- ☏ Tel: 086 3236-6536
@@ -37,5 +43,5 @@ domingo	        Fechado
 
 Em Feriados os horários podem ser diferentes
 
-
+##############################################################
 
