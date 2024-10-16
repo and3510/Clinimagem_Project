@@ -8,6 +8,7 @@
 ![GEMINI](https://img.shields.io/badge/%20GOOGLE%20GEMINI-gray?style=for-the-badge&logo=Googlegemini&logoColor=blue)
 ![TYPEBOT](https://img.shields.io/badge/TYPEBOT-blue?style=for-the-badge&logo=probot&logoColor=white)
 ![NOCODB](https://img.shields.io/badge/NOCODB-purple?style=for-the-badge&logo=amazondynamodb&logoColor=white&logoSize=20px)
+![chatwoot](https://img.shields.io/badge/CHATWOOT-white?style=for-the-badge&logo=chatwoot)
 ![EVOLUTION API](https://img.shields.io/badge/EVOLUTION%20API-greenlight?style=for-the-badge&logo=whatsapp&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
@@ -37,20 +38,25 @@
 
 ## Descrição
 
-Chatbot para Atendimento de uma clinica,para obter informações de forma rápida e precisa
+Chatbot para Atendimento de uma Clinica "Clinimagem",para obter informações de forma rápida e precisa
 
 ## Requisitos
 
-- [ ] Informações sobre Convênios
-- [ ] Informações sobre Exames
-- [ ] Informações sobre Consultas
-- [ ] Exames de Imagem
-- [ ] Exames Laboratoriais
-- [ ] Exames do DETRAN
-- [ ] Exames de Medicina do Trabalho
-- [ ] Retornar ao Menu Principal
-- [ ] Resultados de Exames
+- [x] Cadastro do Usuario ao bot
+- [x] Regras LGBD para Cadastro
+- [x] Informações sobre Convênios
+- [x] Informações sobre o Preparativo para Exames
+- [x] Disponização do link para consulta dos exames do paciente
+- [x] Informações sobre Consultas
+- [x] Exames de Imagem
+- [x] Exames Laboratoriais
+- [x] Exames do DETRAN
+- [x] Exames de Medicina do Trabalho
+- [x] Retornar ao Menu Principal
+- [x] Resultados de Exames
+- [ ] Tranferencia para o atendimento ao cliente
 - [ ] Encerrar atendimento
+- [ ] Função de Avaliação do chatbot
 
 
 ## Tecnologias
@@ -58,6 +64,7 @@ Chatbot para Atendimento de uma clinica,para obter informações de forma rápid
 - **Typebot**: Plataforma para criar chatbots interativos, sem programação complexa.
 - **NocoDB**: Banco de dados visual que transforma dados em planilhas.
 - **Evolution API**: Automação para envio de mensagens via WhatsApp.
+- **Chatwoot**: Plataforma para gerenciar canais de atendimento ao cliente
 - **WhatsApp**: Plataforma para troca de mensagens e comunicação instantânea.
 - **Gemini**: IA para geração de conversas em linguagem natural da Google.
 - **Docker**: Virtualização de aplicações em contêineres para qualquer ambiente.
@@ -75,8 +82,10 @@ Chatbot para Atendimento de uma clinica,para obter informações de forma rápid
 
 ## Dificuldades
 
+Tivermos dificuldades na hora de integrar o sistema chatwoot com o evolution api, mas com muito esforço obtivemos sucesso na integração.
 
 ## Resultados
+
 
 
 ## Como_Usar
