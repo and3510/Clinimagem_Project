@@ -45,11 +45,9 @@ Chatbot para Atendimento de uma Clinica "Clinimagem",para obter informações de
 - [x] Cadastro do Usuario ao bot
 - [x] Regras LGBD para Cadastro
 - [x] Informações sobre Convênios
-- [x] Informações sobre o Preparativo para Exames
+- [x] Informações sobre o Preparativo para Exames Laboratoriais e de Imagem
 - [x] Disponização do link para consulta dos exames do paciente
 - [x] Informações sobre Consultas
-- [x] Exames de Imagem
-- [x] Exames Laboratoriais
 - [x] Exames do DETRAN
 - [x] Exames de Medicina do Trabalho
 - [x] Retornar ao Menu Principal
