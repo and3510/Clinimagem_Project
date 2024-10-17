@@ -9,6 +9,7 @@
 ![TYPEBOT](https://img.shields.io/badge/TYPEBOT-blue?style=for-the-badge&logo=probot&logoColor=white)
 ![NOCODB](https://img.shields.io/badge/NOCODB-purple?style=for-the-badge&logo=amazondynamodb&logoColor=white&logoSize=20px)
 ![chatwoot](https://img.shields.io/badge/CHATWOOT-white?style=for-the-badge&logo=chatwoot)
+![N8N](https://img.shields.io/badge/N8N-%23192027?style=for-the-badge&logo=n8n)
 ![EVOLUTION API](https://img.shields.io/badge/EVOLUTION%20API-greenlight?style=for-the-badge&logo=whatsapp&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
