@@ -53,10 +53,10 @@ Chatbot para Atendimento de uma Clinica "Clinimagem",para obter informações de
 - [x] Exames de Medicina do Trabalho
 - [x] Retornar ao Menu Principal
 - [x] Resultados de Exames
-- [ ] Tranferencia para o atendimento ao cliente
-- [ ] Encerrar atendimento
-- [ ] Função de Avaliação do chatbot
-
+- [x] Tranferencia para o atendimento ao cliente
+- [x] Encerrar atendimento
+- [x] Função de Avaliação do chatbot
+- [ ] Lista de Botões 
 
 ## Tecnologias
 
