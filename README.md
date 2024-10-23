@@ -63,9 +63,7 @@ Chatbot para Atendimento de uma Clinica "Clinimagem",para obter informações de
 - **Typebot**: Plataforma para criar chatbots interativos, sem programação complexa.
 - **NocoDB**: Banco de dados visual que transforma dados em planilhas.
 - **Evolution API**: Automação para envio de mensagens via WhatsApp.
-- **Chatwoot**: Plataforma para gerenciar canais de atendimento ao cliente
 - **WhatsApp**: Plataforma para troca de mensagens e comunicação instantânea.
-- **N8n**: Plataforma de automação de fluxo de trabalho (workflow) open source que permite a integração de aplicativos, serviços e APIs.
 - **Gemini**: IA para geração de conversas em linguagem natural da Google.
 - **Docker**: Virtualização de aplicações em contêineres para qualquer ambiente.
 - **Postman**: Ferramenta para testar, monitorar e documentar APIs.
