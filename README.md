@@ -58,6 +58,7 @@ Chatbot para Atendimento de uma Clinica "Clinimagem",para obter informações de
 - [x] Função de Avaliação do chatbot
 - [ ] IA para tirar duvidas
 - [ ] Lista de Botões 
+- [ ] Botões
 
 ## Tecnologias
 
