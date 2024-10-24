@@ -132,7 +132,7 @@ Tivermos dificuldades na hora de integrar o sistema chatwoot com o evolution api
    cd Clinimagem_Project
    ```
 
-2. **Execute o stack com o Docker Compose no `Clinimagem_Project/docker/docker-compose.yml` :**
+2. **Execute o stack com o Docker Compose no `Clinimagem_Project/docker/docker-compose.yml`:**
 
    Antes de fazer um `docker-compose up`, crie um arquivo **.env** na mesma pasta do **docker-compose.yml**
 
