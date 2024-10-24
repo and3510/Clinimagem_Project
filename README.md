@@ -80,11 +80,16 @@ Chatbot para Atendimento de uma Clinica "Clinimagem",para obter informações de
 
 ## Dificuldades
 
-Tivermos dificuldades na hora de integrar o sistema chatwoot com o evolution api, mas com muito esforço obtivemos sucesso na integração.
+
 
 ## Resultados
 
+<div align="center">
+  
+<img src="./images/typebot.gif" alt="Descrição da Imagem" width="600">
+<p>Projeto foi divido em pedaços para facilitar a movimentação pelos fluxos e manutenção</p>
 
+</div>
 
 ## Como_Usar
 
