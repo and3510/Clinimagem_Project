@@ -73,7 +73,7 @@ Chatbot para Atendimento de uma Clinica "Clinimagem",para obter informações de
 
 <div align="center">
 
-![Descrição do GIF](./images/fluxo.png)
+
   
 <img src="./images/fluxo.png" alt="Descrição da Imagem" width="600">
 
@@ -87,6 +87,8 @@ Chatbot para Atendimento de uma Clinica "Clinimagem",para obter informações de
 ## Resultados
 
 <div align="center">
+
+![Descrição do GIF](./images/typebot.gif)
   
 <img src="./images/typebot.gif" alt="Descrição da Imagem" width="600">
 <p>Projeto foi divido em pedaços para facilitar a movimentação pelos fluxos e manutenção</p>
