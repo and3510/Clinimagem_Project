@@ -95,6 +95,21 @@ Chatbot para Atendimento de uma Clinica "Clinimagem",para obter informações de
 
 </div>
 
+
+### Api Evolution v2.1
+
+<div align="center">
+
+<img src="./images/apievolution.png" alt="Descrição da Imagem" width="700" height="300">
+<p> Interface do Evolution Api v2.1 </p>
+
+</div>
+
+
+
+
+
+
 ## Como_Usar
 
 > Embora eu não possa mostrar os dados das tabelas e o template do fluxo, disponibilizei o material para quem quiser iniciar um projeto com uma ideia diferente.
