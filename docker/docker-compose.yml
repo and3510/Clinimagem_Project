@@ -10,7 +10,7 @@ services:
       - LANGUAGE=en
       - DEL_INSTANCE=false
       - DATABASE_PROVIDER=postgresql
-      - DATABASE_CONNECTION_URI=postgresql://evolution2:evolution2@postgres:5432/evolution2?schema=public
+      - DATABASE_CONNECTION_URI=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}?schema=public
       - DATABASE_SAVE_DATA_INSTANCE=true
       - DATABASE_SAVE_DATA_NEW_MESSAGE=true
       - DATABASE_SAVE_MESSAGE_UPDATE=true
@@ -18,7 +18,7 @@ services:
       - DATABASE_SAVE_DATA_CHATS=true
       - DATABASE_SAVE_DATA_LABELS=true
       - DATABASE_SAVE_DATA_HISTORIC=true
-      - DATABASE_CONNECTION_CLIENT_NAME=evolution2
+      - DATABASE_CONNECTION_CLIENT_NAME=${POSTGRES_USER}
       #Rabbitmq
       - RABBITMQ_ENABLED=false
       - RABBITMQ_URI=amqp://admin:admin@rabbitmq:5672/default
@@ -107,7 +107,7 @@ services:
       - CHATWOOT_ENABLED=false
       - CHATWOOT_MESSAGE_READ=true
       - CHATWOOT_MESSAGE_DELETE=true
-      - CHATWOOT_IMPORT_DATABASE_CONNECTION_URI=postgresql://evolution:evolution@postgres:5432/chatwoot?sslmode=disable
+      - CHATWOOT_IMPORT_DATABASE_CONNECTION_URI=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/chatwoot?sslmode=disable
       - CHATWOOT_IMPORT_PLACEHOLDER_MEDIA_MESSAGE=true
       #redis
       - CACHE_REDIS_ENABLED=true
@@ -138,9 +138,9 @@ services:
   postgres:
     image: postgres:latest
     environment:
-      POSTGRES_DB: evolution2
-      POSTGRES_USER: evolution2
-      POSTGRES_PASSWORD: evolution2
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
     networks:
       - evolutionapi
     volumes:

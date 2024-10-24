@@ -132,7 +132,23 @@ Tivermos dificuldades na hora de integrar o sistema chatwoot com o evolution api
    cd Clinimagem_Project
    ```
 
-2. **Execute o stack com o Docker Compose:**
+2. **Execute o stack com o Docker Compose no `Clinimagem_Project/docker/docker-compose.yml` :**
+
+   Antes de fazer um `docker-compose up`, crie um arquivo **.env** na mesma pasta do **docker-compose.yml**
+
+   e adicione:
+
+
+   ```
+   AUTHENTICATION_API_KEY= senha da chave api evolution
+
+
+   POSTGRES_DB=nome do database
+   POSTGRES_USER=nome do usuario
+   POSTGRES_PASSWORD=senha do database
+   ```
+
+
 
    Para iniciar os serviços definidos no Docker Compose, utilize o comando:
 
