@@ -72,6 +72,8 @@ Chatbot para Atendimento de uma Clinica "Clinimagem",para obter informações de
 ## Fluxo do Software
 
 <div align="center">
+
+![Descrição do GIF](./images/fluxo.png)
   
 <img src="./images/fluxo.png" alt="Descrição da Imagem" width="600">
 
