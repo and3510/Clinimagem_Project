@@ -86,6 +86,8 @@ Chatbot para Atendimento de uma Clinica "Clinimagem",para obter informações de
 
 ## Resultados
 
+### Fluxo do Typebot
+
 <div align="center">
 
 ![Descrição do GIF](./images/typebot.gif)
