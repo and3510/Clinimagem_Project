@@ -93,7 +93,14 @@ Chatbot para Atendimento de uma Clinica "Clinimagem",para obter informações de
 ![Descrição do GIF](./images/typebot.gif)
 <p>Projeto foi divido em pedaços para facilitar a movimentação pelos fluxos e manutenção</p>
 
+
+<img src="./images/typebotfluxo.png" alt="Descrição da Imagem" width="700" height="300">
+<p> Diagrama do Typebot</p>
+
+
 </div>
+
+
 
 
 ### Api Evolution v2.1
