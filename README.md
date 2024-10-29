@@ -100,7 +100,6 @@ Chatbot para Atendimento de uma Clinica "Clinimagem",para obter informações de
 
 
 
-
 ### Api Evolution v2.1
 
 <div align="center">
