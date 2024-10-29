@@ -100,12 +100,12 @@ Chatbot para Atendimento de uma Clinica "Clinimagem",para obter informações de
 
 
 
-### Api Evolution v2.1
+### Api Evolution v1.8.2
 
 <div align="center">
 
 <img src="./images/apievolution.png" alt="Descrição da Imagem" width="700" height="300">
-<p> Interface do Evolution Api v2.1 </p>
+<p> Interface do Evolution v1.8.2 </p>
 
 </div>
 
