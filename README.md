@@ -41,7 +41,6 @@ Chatbot para Atendimento de uma Clinica "Clinimagem",para obter informações de
 
 ## Requisitos
 
-- [x] Cadastro do Usuario ao bot
 - [x] Regras LGBD para Cadastro
 - [x] Informações sobre Convênios
 - [x] Informações sobre o Preparativo para Exames Laboratoriais e de Imagem
