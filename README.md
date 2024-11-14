@@ -38,7 +38,8 @@
 
 ## Descrição
 
-Chatbot para Atendimento de uma Clinica "Clinimagem",para obter informações de forma rápida e precisa
+O projeto consiste na criação de um chatbot especializado para a clínica médica "Clinimagem", com o objetivo de aprimorar o atendimento ao paciente e oferecer acesso ágil às informações sobre serviços, agendamentos, horários e procedimentos. Utilizando uma interface intuitiva, o chatbot funcionará por meio do WhatsApp e web, sendo capaz de compreender perguntas e fornecer respostas detalhadas. Com funcionalidades como assistência no agendamento online, consultas sobre convênios e respostas a dúvidas frequentes, o sistema visa melhorar a satisfação dos pacientes e otimizar o fluxo de trabalho da recepção, permitindo foco em atendimentos mais complexos.
+
 
 ## Requisitos
 
