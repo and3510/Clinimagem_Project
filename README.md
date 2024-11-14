@@ -54,8 +54,8 @@ Chatbot para Atendimento de uma Clinica "Clinimagem",para obter informações de
 - [x] Tranferencia para o atendimento ao cliente
 - [x] Encerrar atendimento
 - [x] Função de Avaliação do chatbot
-- [ ] IA para tirar duvidas
 - [x] Lista de Botões
+- [ ] IA para tirar duvidas
 
 ## Tecnologias
 
@@ -66,6 +66,7 @@ Chatbot para Atendimento de uma Clinica "Clinimagem",para obter informações de
 - **Gemini**: IA para geração de conversas em linguagem natural da Google.
 - **Docker**: Virtualização de aplicações em contêineres para qualquer ambiente.
 - **Postman**: Ferramenta para testar, monitorar e documentar APIs.
+- **Dify**: Plataforma para integrar IA em aplicações de forma simples e rápida.
 
 
 ## Fluxo do Software
@@ -81,7 +82,9 @@ Chatbot para Atendimento de uma Clinica "Clinimagem",para obter informações de
 
 ## Dificuldades
 
+Tivemos dificuldades com as limitações dos sistemas em nuvem das aplicações que utilizamos, o que restringiu a realização dos testes. No entanto, conseguimos contornar esse problema com a criação de contêineres Docker.
 
+A falta de informações da clínica também dificultou a elaboração do prompt para a assistente virtual. Além disso, devido à ausência de retorno do cliente, recebemos pouco feedback durante o desenvolvimento do projeto.
 
 ## Resultados
 
@@ -107,6 +110,17 @@ Chatbot para Atendimento de uma Clinica "Clinimagem",para obter informações de
 
 <img src="./images/apievolution.png" alt="Descrição da Imagem" width="700" height="300">
 <p> Interface do Evolution v1.8.2 </p>
+
+</div>
+
+
+### Container com o Dify
+
+
+<div align="center">
+
+<img src="./images/dofy.png" alt="Descrição da Imagem" width="700" height="300">
+<p> Docker Dify </p>
 
 </div>
 
