@@ -6,7 +6,6 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![GEMINI](https://img.shields.io/badge/%20GOOGLE%20GEMINI-gray?style=for-the-badge&logo=Googlegemini&logoColor=blue)
-![Ollama](https://img.shields.io/badge/ollama-white?style=for-the-badge&logo=ollama&logoColor=black)
 ![Dify](https://img.shields.io/badge/dify-%2394bbe9?style=for-the-badge&logo=devpost)
 ![TYPEBOT](https://img.shields.io/badge/TYPEBOT-blue?style=for-the-badge&logo=probot&logoColor=white)
 ![NOCODB](https://img.shields.io/badge/NOCODB-purple?style=for-the-badge&logo=amazondynamodb&logoColor=white&logoSize=20px)
