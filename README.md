@@ -55,7 +55,7 @@ O projeto consiste na criação de um chatbot especializado para a clínica méd
 - [x] Encerrar atendimento
 - [x] Função de Avaliação do chatbot
 - [x] Lista de Botões
-- [ ] IA para tirar duvidas
+- [x] IA para tirar duvidas
 
 ## Tecnologias
 
