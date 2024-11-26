@@ -146,6 +146,8 @@ Não conseguimos integrar com uma aplicação `Chatwoot` para a centralização 
 
 > Embora eu não possa mostrar os dados das tabelas e o template do fluxo, disponibilizei o material para quem quiser iniciar um projeto com uma ideia diferente.
 
+> O docker compose do dify está no repositorio oficial deles nesse link [**Dify Docker Compose**](https://github.com/langgenius/dify/tree/main/docker)
+
 
 > Antes de tentar usar, é importante ja saber como usar as plataformas [**Typebot**](https://docs.typebot.io/get-started/introduction) e [**NocoDb**](https://docs.nocodb.com/)
 
