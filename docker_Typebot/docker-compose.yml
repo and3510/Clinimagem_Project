@@ -1,0 +1,164 @@
+# version: '3.3'
+# services:
+#   typebot-db:
+#     image: postgres:13
+#     restart: always
+#     volumes:
+#       - db_data:/var/lib/postgresql/data
+#     environment:
+#       - POSTGRES_DB=typebot
+#       - POSTGRES_PASSWORD=typebot
+#   typebot-builder:
+#     ports:
+#       - $portabuilder:3000
+#     image: baptistearno/typebot-builder:latest
+#     restart: always
+#     depends_on:
+#       - typebot-db
+#     environment:
+#       - DATABASE_URL=postgresql://postgres:typebot@typebot-db:5432/typebot
+#       - NEXTAUTH_URL=https://$builder
+#       - NEXT_PUBLIC_VIEWER_URL=https://$viewer
+
+#       - ENCRYPTION_SECRET=$key
+
+#       - ADMIN_EMAIL=$email
+
+#       - SMTP_SECURE=$SECURE
+
+#       - SMTP_HOST=$smtp
+#       - SMTP_PORT=$portasmtp
+#       - SMTP_USERNAME=$email
+#       - SMTP_PASSWORD=$senha
+#       - NEXT_PUBLIC_SMTP_FROM='Suporte Typebot' <$email>
+
+#       - S3_ACCESS_KEY=minio
+#       - S3_SECRET_KEY=minio123
+#       - S3_BUCKET=typebot
+#       - S3_ENDPOINT=$storage
+#   typebot-viewer:
+#     ports:
+#       - $portaviewer:3000
+#     image: baptistearno/typebot-viewer:latest
+#     restart: always
+#     environment:
+#       - DATABASE_URL=postgresql://postgres:typebot@typebot-db:5432/typebot
+#       - NEXT_PUBLIC_VIEWER_URL=https://$viewer
+#       - ENCRYPTION_SECRET=$key
+
+#       - S3_ACCESS_KEY=minio
+#       - S3_SECRET_KEY=minio123
+#       - S3_BUCKET=typebot
+#       - S3_ENDPOINT=$storage
+#   mail:
+#     image: bytemark/smtp
+#     restart: always
+#   minio:
+#     labels:
+#       virtual.host: '$storage'
+#       virtual.port: '$portastorage'
+#       virtual.tls-email: '$email'
+#     image: minio/minio
+#     command: server /data
+#     ports:
+#       - '$portastorage:$portastorage'
+#     environment:
+#       MINIO_ROOT_USER: minio
+#       MINIO_ROOT_PASSWORD: minio123
+#     volumes:
+#       - s3_data:/data
+#   createbuckets:
+#     image: minio/mc
+#     depends_on:
+#       - minio
+#     entrypoint: >
+#       /bin/sh -c "
+#       sleep 10;
+#       /usr/bin/mc config host add minio http://minio:$portastorage minio minio123;
+#       /usr/bin/mc mb minio/typebot;
+#       /usr/bin/mc anonymous set public minio/typebot/public;
+#       exit 0;
+#       "
+# volumes:
+#   db_data:
+#   s3_data:
+
+
+services:
+  typebot-db:
+    image: postgres:13
+    restart: no
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+  typebot-builder:
+    ports:
+      - ${PORTA_BUILDER}:3000
+    image: baptistearno/typebot-builder:latest
+    restart: always
+    depends_on:
+      - typebot-db
+    environment:
+      - DATABASE_URL=postgresql://postgres:${POSTGRES_PASSWORD}@typebot-db:5432/${POSTGRES_DB}
+      - NEXTAUTH_URL=${BUILDER_URL}
+      - NEXT_PUBLIC_VIEWER_URL=${VIEWER_URL}
+      - ENCRYPTION_SECRET=${ENCRYPTION_SECRET}
+      - ADMIN_EMAIL=${ADMIN_EMAIL}
+      - SMTP_SECURE=${SMTP_SECURE}
+      - SMTP_HOST=${SMTP_HOST}
+      - SMTP_PORT=${SMTP_PORT}
+      - SMTP_USERNAME=${SMTP_USERNAME}
+      - SMTP_PASSWORD=${SMTP_PASSWORD}
+      - NEXT_PUBLIC_SMTP_FROM=${SMTP_FROM}
+      - S3_ACCESS_KEY=${S3_ACCESS_KEY}
+      - S3_SECRET_KEY=${S3_SECRET_KEY}
+      - S3_BUCKET=${S3_BUCKET}
+      - S3_ENDPOINT=${S3_ENDPOINT}
+  typebot-viewer:
+    ports:
+      - ${PORTA_VIEWER}:3000
+    image: baptistearno/typebot-viewer:latest
+    restart: no
+    environment:
+      - DATABASE_URL=postgresql://postgres:${POSTGRES_PASSWORD}@typebot-db:5432/${POSTGRES_DB}
+      - NEXT_PUBLIC_VIEWER_URL=${VIEWER_URL}
+      - ENCRYPTION_SECRET=${ENCRYPTION_SECRET}
+      - NEXTAUTH_URL=${NEXTAUTH_URL}
+      - S3_ACCESS_KEY=${S3_ACCESS_KEY}
+      - S3_SECRET_KEY=${S3_SECRET_KEY}
+      - S3_BUCKET=${S3_BUCKET}
+      - S3_ENDPOINT=${S3_ENDPOINT}
+  mail:
+    image: bytemark/smtp
+    restart: no
+  minio:
+    labels:
+      virtual.host: '${S3_ENDPOINT}'
+      virtual.port: '${PORTA_MINIO}'
+      virtual.tls-email: '${ADMIN_EMAIL}'
+    image: minio/minio
+    command: server /data
+    ports:
+      - '${PORTA_MINIO}:${PORTA_MINIO}'
+    environment:
+      MINIO_ROOT_USER: ${S3_ACCESS_KEY}
+      MINIO_ROOT_PASSWORD: ${S3_SECRET_KEY}
+    volumes:
+      - s3_data:/data
+  createbuckets:
+    image: minio/mc
+    depends_on:
+      - minio
+    entrypoint: >
+      /bin/sh -c "
+      sleep 10;
+      /usr/bin/mc config host add minio http://minio:${PORTA_MINIO} ${S3_ACCESS_KEY} ${S3_SECRET_KEY};
+      /usr/bin/mc mb minio/${S3_BUCKET};
+      /usr/bin/mc anonymous set public minio/${S3_BUCKET}/public;
+      exit 0;
+      "
+volumes:
+  db_data:
+  s3_data:
