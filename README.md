@@ -86,6 +86,8 @@ Tivemos dificuldades com as limitações dos sistemas em nuvem das aplicações 
 
 A falta de informações da clínica também dificultou a elaboração do prompt para a assistente virtual. Além disso, devido à ausência de retorno do cliente, recebemos pouco feedback durante o desenvolvimento do projeto.
 
+Não conseguimos integrar com uma aplicação `Chatwoot` para a centralização dos atedimentos humanos. Então decidimos que os atendimentos vao ser conectados com o "Linked Whatsapp" com o limite de 3 atendentes.
+
 ## Resultados
 
 ### Fluxo do Typebot
@@ -114,6 +116,7 @@ A falta de informações da clínica também dificultou a elaboração do prompt
 </div>
 
 
+
 ### Container com o Dify
 
 
@@ -124,6 +127,16 @@ A falta de informações da clínica também dificultou a elaboração do prompt
 
 </div>
 
+
+### Chatbot Funcionando
+
+
+<div align="center">
+
+![Descrição do GIF](./images/acao.gif)
+<p> Nosso chatbot funcionando </p>
+
+</div>
 
 
 
