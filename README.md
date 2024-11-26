@@ -375,3 +375,5 @@ Depois disso, envie uma mensagem para o número registrado na API e veja a mági
 
 
 ## Conclusão
+
+O Clinimagem Bot foi desenvolvido com o objetivo de otimizar o atendimento ao paciente, oferecendo uma experiência ágil e eficiente por meio de um chatbot integrado ao WhatsApp e à web. Utilizando tecnologias como Typebot, NocoDB, Evolution API, Docker e outras, o sistema permite agendamentos, consulta a resultados de exames e informações sobre convênios de forma automatizada. Apesar das dificuldades enfrentadas, como limitações nos testes e a falta de feedback contínuo, o projeto atingiu seus principais objetivos, proporcionando uma solução funcional para melhorar o fluxo de trabalho da clínica e a interação com os pacientes.
