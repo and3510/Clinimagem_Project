@@ -5,8 +5,6 @@
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge)
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![GEMINI](https://img.shields.io/badge/%20GOOGLE%20GEMINI-gray?style=for-the-badge&logo=Googlegemini&logoColor=blue)
-![Dify](https://img.shields.io/badge/dify-%2394bbe9?style=for-the-badge&logo=devpost)
 ![TYPEBOT](https://img.shields.io/badge/TYPEBOT-blue?style=for-the-badge&logo=probot&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/groq-red?style=for-the-badge&logo=gitee)
 ![NOCODB](https://img.shields.io/badge/NOCODB-purple?style=for-the-badge&logo=amazondynamodb&logoColor=white&logoSize=20px)
@@ -64,10 +62,9 @@ O projeto consiste na criação de um chatbot especializado para a clínica méd
 - **NocoDB**: Banco de dados visual que transforma dados em planilhas.
 - **Evolution API**: Automação para envio de mensagens via WhatsApp.
 - **WhatsApp**: Plataforma para troca de mensagens e comunicação instantânea.
-- **Gemini**: IA para geração de conversas em linguagem natural da Google.
+- **Groq**: IA para geração de conversas em linguagem natural da GroqCloud.
 - **Docker**: Virtualização de aplicações em contêineres para qualquer ambiente.
 - **Postman**: Ferramenta para testar, monitorar e documentar APIs.
-- **Dify**: Plataforma para integrar IA em aplicações de forma simples e rápida.
 
 
 ## Fluxo do Software
@@ -88,6 +85,8 @@ Tivemos dificuldades com as limitações dos sistemas em nuvem das aplicações 
 A falta de informações da clínica também dificultou a elaboração do prompt para a assistente virtual. Além disso, devido à ausência de retorno do cliente, recebemos pouco feedback durante o desenvolvimento do projeto.
 
 Não conseguimos integrar com uma aplicação `Chatwoot` para a centralização dos atedimentos humanos. Então decidimos que os atendimentos vao ser conectados com o "Linked Whatsapp" com o limite de 3 atendentes.
+
+Percebemos que usar o groqcloud como assistente IA, é melhor do que o gemini, então descartamos o uso do `dify` para a melhoria do modelo.
 
 ## Resultados
 
@@ -117,18 +116,6 @@ Não conseguimos integrar com uma aplicação `Chatwoot` para a centralização 
 </div>
 
 
-
-### Container com o Dify
-
-
-<div align="center">
-
-<img src="./images/dofy.png" alt="Descrição da Imagem" width="700" height="300">
-<p> Docker Dify </p>
-
-</div>
-
-
 ### Chatbot Funcionando
 
 
@@ -148,9 +135,6 @@ Não conseguimos integrar com uma aplicação `Chatwoot` para a centralização 
 > Embora eu não possa mostrar os dados das tabelas e o template do fluxo, disponibilizei o material para quem quiser iniciar um projeto com uma ideia diferente.
 
 > Para usar os dockers voces vai precisar criar os arquivos .env de cada pasta de docker
-
-> O docker compose do dify está no repositorio oficial deles nesse link [**Dify Docker Compose**](https://github.com/langgenius/dify/tree/main/docker)
-
 
 > Antes de tentar usar, é importante ja saber como usar as plataformas [**Typebot**](https://docs.typebot.io/get-started/introduction) e [**NocoDb**](https://docs.nocodb.com/)
 
