@@ -102,7 +102,7 @@ Percebemos que usar o groqcloud como assistente IA, é melhor do que o gemini, e
 <p> Diagrama do Typebot</p>
 
 
-<img src="./images/principais.png" alt="Descrição da Imagem" width="700" height="300">
+<img src="./images/principais.png" alt="Descrição da Imagem" width="700" height="500">
 <p> Principais Partes do Chat</p>
 
 
